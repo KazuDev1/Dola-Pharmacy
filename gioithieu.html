@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../boostrap/css/bootstrap.min.css">
+    <script src="../boostrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../icon/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <!-- Icon -->
+        <div class="icon">
+            <div class="back-to-top" >
+                <a href="" onclick="scrollToTop(event)">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+            <div class="icon-zalo">
+                <a href="">
+                    <i class="fa-solid fa-bell"></i>
+                </a>
+            </div>
+            <div class="icon-mesenger">
+                <a href="">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Banner top -->
+        <div class="banner-top ">
+            <div class="box-container">
+                <a href="#">
+                    <img src="../img/banner_top.webp" alt="" class="w-100">
+                </a>
+            </div>
+        </div>
+        <!-- Header -->
+        <header>
+            <div class="box-container">
+                <div class="topbar">
+                    <div class="row text-white">
+                        <div class="col-lg-6">
+                            <div class="top-bar-left">
+                                <div class="">
+                                    <p class="mbt-4 text-rotation">Chào mừng bạn đến với cửa hàng Dola Pharmacy!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 top-bar-right my-1">
+                            <ul>
+                                <li class="before"><a class="text-decoration-none text-white mx-2" href="">Đăng ký</a>
+                                </li>
+                                <li class="before"><a class="text-decoration-none text-white mx-2" href="">Đăng nhập</a>
+                                </li>
+                                <li class="ms-2">Hotline đặt hàng: <a class="text-decoration-none text-white hotline"
+                                        href=""> <img src="../icon/phone-solid.svg" alt="" style="height: 12px;"> 1900
+                                        6067</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 ">
+                        <img src="../img/logo.webp" alt="" class="w-100">
+                    </div>
+                    <div class=" col-lg-2 mt-2">
+                        <button class="btn category d-none d-md-flex" data-bs-toggle="modal"
+                            data-bs-target="#modalCategory">
+                            <span class="ti-menu mx-1"></span>
+                            <span>Danh mục</span>
+                        </button>
+                        <div class="modal fade" id="modalCategory">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content" style="width: 1070px;">
+                                    <div class="modal-row row">
+                                        <div class="col-lg-3">
+                                            <ul style="list-style-type: none;">
+                                                <li class="nav-item ">
+                                                    <a href="" class="subcategory w-100 text-decoration-none active"
+                                                        data-category="duocPham">
+                                                        Dược phẩm
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="chamSocSucKhoe">
+                                                        Chăm sóc sức khỏe
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="chamSocCaNhan">
+                                                        Chăm sóc cá nhân
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="sanPhamTienLoi">
+                                                        Sản phẩm tiện lợi
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="thucPhamChucNang">
+                                                        Thực phẩm chức năng
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="meVaBe">
+                                                        Mẹ và Bé
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="chamSocSacDep">
+                                                        Chăm sóc sắc đẹp
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="thietBiYTe">
+                                                        Thiết bị y tế
+                                                        <i class="ms-5 ti-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="subcategory w-100 text-decoration-none"
+                                                        data-category="khuyenMaiHot">
+                                                        Khuyết mãi hot
+
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="row changeProducts">
+                                                <div class="col-lg-3">
+                                                    <a href="" class="product text-decoration-none">
+                                                        <div>
+                                                            <img class="" src="../img/duocPham/thuoc-ko-ke-don.webp"
+                                                                alt="">
+                                                        </div>
+                                                        <span>Thuốc không kê đơn</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="search-header">
+                            <form action="" class="search-form">
+                                <input class="input-search w-100" type="search" placeholder="Thực phẩm chức năng">
+                                <button type="submit" class="">
+                                    <i class="ti-search"></i>
+                                </button>
+                            </form>
+                            <div class="search-products">
+                                <div class="search-btn">
+                                    <button>Sản phẩm</button>
+                                    <button>Tin tức</button>
+                                </div>
+                                <div class="search-detail">
+                                    <span class="quantity-product">
+                                        Có 0 sản phẩm
+                                    </span>
+                                    <div class="list-product">
+                                        <div class="product-item">
+                                            <a href="" class="search-product text-decoration-none">
+                                                <img src="../img/chamSocCaNhan/3-02-san-pham-phong-tam-3-02-bat.webp"
+                                                    alt="">
+                                                <div>
+                                                    <span class="productName text-dark">Sản phẩm phòng tắm</span>
+                                                    <span class="price">200.000đ</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product-item">
+                                            <a href="" class="search-product text-decoration-none">
+                                                <img src="../img/chamSocSucKhoe/2-11.webp" alt="">
+                                                <div>
+                                                    <span class="productName text-dark">Sản phẩm phòng tắm</span>
+                                                    <span class="price">200.000đ</span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="product-item">
+                                            <a href="" class="search-product text-decoration-none">
+                                                <img src="../img/duocPham/thuoc-ko-ke-don.webp" alt="">
+                                                <div>
+                                                    <span class="productName text-dark">Sản phẩm phòng tắm</span>
+                                                    <span class="price">200.000đ</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="product-item">
+                                            <a href="" class="search-product text-decoration-none">
+                                                <img src="../img/chamSocSucKhoe/2-08-cham-soc-mattaimui-2-08-for.webp"
+                                                    alt="">
+                                                <div>
+                                                    <span class="productName text-dark">Sản phẩm phòng tắm</span>
+                                                    <span class="price">200.000đ</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="more-product">
+                                        <a href="">
+                                            Xem tất cả
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="list-icon-info">
+                            <li>
+                                <a href="">
+                                    <i class="ti-location-pin"></i>
+                                </a>
+                                <span class="count">8</span>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <i class="ti-heart"></i>
+                                </a>
+                                <span class="count">0</span>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <i class="ti-bell"></i>
+                                </a>
+                                <span class="count">5</span>
+                            </li>
+
+                            <li class="cart">
+                                <a href="">
+                                    <p>Giỏ hàng</p>
+                                    <i class="ti-shopping-cart-full"></i>
+                                </a>
+                                <span class="count" style="top: 0px; right: 1px;">3</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul class="navbar">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li class="productSubNav">
+                            <a class="" href="">
+                                Sản phẩm
+                                <i class="ti-angle-down"></i>
+                                <div class="sub-nav">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="duocPham">Dược phẩm</a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="chamSocSucKhoe">Chăm sóc sức khỏe</a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="chamSocCaNhan">Chăm sóc cá nhân</a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="sanPhamTienLoi">Sản phẩm tiện lợi</a>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="thucPhamChucNang">Thực phẩm chức năng</a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="meVaBe">Mẹ và bé</a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="chamSocSacDep">Chăm sóc sắc đẹp</a>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <a href="" class="sub-nav-title" data-category="thietBiYTe">Thiết bị y tế</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="">
+                                Sản phẩm khuyến mãi
+                            </a>
+                        </li>
+                        <li class="newsSubNav">
+                            <a href="">
+                                Tin tức
+                                <i class="ti-angle-down"></i>
+                                <div class="sub-nav-news">
+                                    <div class="row">
+                                        <a href="" class="sub-nav-title">Góc dinh dưỡng</a>
+                                    </div>
+                                    <div class="row">
+                                        <a href="" class="sub-nav-title">Góc khỏe đẹp</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li><a href="">Video</a></li>
+                        <li><a href="">Câu hỏi thường gặp</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Content -->
+        <div class="content">
+            <div class="breadcum">
+                <p>
+                    <a href="">Trang chủ</a> <i class="fa-solid fa-arrow-right"></i> <a href="" style="color: #0f62f9;">Giới thiệu</a>
+                </p>
+            </div>
+            <div class="text-content" style="margin: 40px 200px;">
+                <h1 class="title">
+                    <a href="">Giới thiệu</a>
+                </h1>
+                <p>Dola Pharmacy - Điểm đến tin cậy cho sức khỏe của bạn!</p>
+                <p>Dola Pharmacy là một nhà thuốc hàng đầu, cung cấp cho khách hàng những dịch vụ chăm sóc sức khỏe chất lượng, chuyên nghiệp, và đáng tin cậy nhất. Với hơn 10 năm kinh nghiệm trong ngành dược phẩm, chúng tôi tự tin là địa điểm mà bạn có thể tin tưởng tìm kiếm sự hỗ trợ về sức khỏe và tim mua các loại thuốc cần thiết.</p>
+                <p>Tại Dola Pharmacy, chúng tôi cam kết luôn mang đến cho khách hàng sự phục vụ tận tâm và thân thiện. Đội ngũ nhân viên chuyên gia của chúng tôi có kiến thức sâu rộng về ngành dược phẩm và luôn sẵn lòng tư vấn giúp đỡ khách hàng. Bên cạnh đó, chúng tôi cũng luôn cung cấp thông tin chi tiết, minh bạch về các loại thuốc và sản phẩm mà chúng tôi cung cấp, giúp khách hàng hiểu rõ và lựa chọn được những sản phẩm phù hợp nhất cho nhu cầu cụ thể của mình.</p>
+                <p>Với một đội ngũ nhân viên chuyên nghiệp, Dola Pharmacy không chỉ cung cấp các loại thuốc thông thường mà còn đáp ứng được mọi nhu cầu khó khăn hơn của khách hàng. Chúng tôi có sẵn các loại thuốc chữa bệnh, thực phẩm bảo vệ sức khỏe, thực phẩm chức năng, vitamin và các sản phẩm chăm sóc sắc đẹp. Bên cạnh đó, chúng tôi cũng có các dịch vụ đặc biệt như tư vấn dinh dưỡng và chăm sóc sức khỏe tổng quát.</p>
+                <p>Dola Pharmacy cũng cam kết với đội ngũ nhân viên của mình rằng sẽ luôn cập nhật và nâng cao trình độ chuyên môn, để có thể đáp ứng tốt nhất mọi yêu cầu và mong muốn từ phía khách hàng. Chúng tôi không ngừng mở rộng mạng lưới nhà thuốc của mình để đáp ứng cho mọi khách hàng trên khắp vùng lãnh thổ.</p>
+                <p>Hãy ghé thăm Dola Pharmacy ngay hôm nay để tận hưởng dịch vụ chăm sóc sức khỏe hàng đầu. Chúng tôi hân hạnh được phục vụ bạn và đồng hành cùng bạn trên hành trình chăm sóc sức khỏe.</p>
+            </div>
+        </div>
+        <footer>
+            <div class="row footer-top">
+                <div class="col-lg-6 footer-mail">
+                    <form action="">
+                        <input type="email" class="form-control" placeholder="Nhập email nhận tin khuyến mãi">
+                        <button class="btn-btn-default">Đăng ký</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 footer-icon">
+                    <p>Kết nối với chúng tôi:</p>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="ti-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="ti-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="ti-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="ti-google"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-mid">
+                <div class="col-lg-3">
+                    <img src="../img/logo.webp" alt="">
+                    <p class="footer-mid-desc">
+                        Cửa hàng thực phẩm chức năng Dola Pharmacy là địa chỉ tin cậy để bạn tìm kiếm những sản phẩm
+                        chất lượng nhất.
+                    </p>
+                    <ul class="footer-mid-address">
+                        <li>
+                            <p>
+                                <i class="ti-location-pin"></i>
+                                70 Lữ Gia, Phường 15, Quận 11, TP.HCM
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="ti-mobile"></i>
+                                1900 6750
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="ti-email"></i>
+                                support@sapo.vn
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <p class="footer-mid-title">Chính sách</p>
+                    <ul>
+                        <li><a href="">Chính sách thành viên</a></li>
+                        <li><a href="">Chính sách thanh toán</a></li>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Bảo mật thông tin cá nhân</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <p class="footer-mid-title">Hướng dẫn</p>
+                    <ul>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Hướng dẫn thanh toán</a></li>
+                        <li><a href="">Đăng ký thành viên</a></li>
+                        <li><a href="">Hỗ trợ khách hàng</a></li>
+                        <li><a href="">Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <p class="footer-mid-title">Danh mục</p>
+                    <ul>
+                        <li><a href="">Dược phẩm</a></li>
+                        <li><a href="">Chăm sóc sức khỏe</a></li>
+                        <li><a href="">Chăm sóc cá nhân</a></li>
+                        <li><a href="">Sản phẩm tiện lợi</a></li>
+                        <li><a href="">Thực phẩm chức năng</a></li>
+                        <li><a href="">Mẹ và Bé</a></li>
+                        <li><a href="">Chăm sóc sắc đẹp</a></li>
+                        <li><a href="">Thiết bị y tế</a></li>
+                        <li><a href="">Khuyến mãi HOT</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p class="footer-mid-title">Đăng ký nhận tin</p>
+                    <div class="footer-mid-info">
+                        <p style="font-weight: bold;">MUA ONLINE (08:30 - 20:30)</p>
+                        <a href="" style="font-size: 16px;">19006075</a>
+                        <br>
+                        <i>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</i>
+                    </div>
+                    <div class="footer-mid-info">
+                        <p style="font-weight: bold; margin-top: 8px;">GÓP Ý & KHIẾU NẠI (08:30 - 20:30)</p>
+                        <a href="" style="font-size: 16px;">19006075</a>
+                        <br>
+                        <i>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</i>
+                    </div>
+                    <p class="footer-mid-title" style="text-transform: uppercase;">Liên kết sàn</p>
+                    <div>
+                        <ul class="link-others">
+                            <li>
+                                <a href="">
+                                    <i class="ti-microsoft-alt"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="ti-linux"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="ti-pinterest-alt"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="ti-themify-favicon-alt"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row footer-bottom">
+                <p>Bản quyền thuộc về <strong style="font-weight: bold;">Dola theme</strong>. Cung cấp bởi Sapo</p>
+            </div>
+        </footer>
+
+        
+    </main>
+    <script src="../data/product.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
